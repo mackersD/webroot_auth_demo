@@ -22,7 +22,7 @@ function loginAsync(username, password) {
       return Object.assign(
         {},
         {
-          username: username
+          username: user.username
         }
       );
     });
