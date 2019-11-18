@@ -4,10 +4,10 @@ This demo was built using react and electron. I capped the effort to building th
 
 Security Characteristics
 
-- Storage of passwords as hashed values
-- Obscure wrong password or wrong user as a user/password combindation
-- Prevent account enumeration by not indicating if an account already exists on registration.
-- Minimum password requirements
+- storage of passwords as hashed values
+- obscure wrong password or wrong user as a user/password combination
+- prevent account enumeration by not indicating if an account already exists on registration
+- minimum password requirements
 
 Testing Characteristics
 
@@ -23,7 +23,7 @@ If I had more time:
 
 To run the demo:
 
-1. In Windows, run the .exe. file in the /dist folder
+1. In Windows, run the .exe. file in the /dist folder.
 
 To run the dev environment:
 
