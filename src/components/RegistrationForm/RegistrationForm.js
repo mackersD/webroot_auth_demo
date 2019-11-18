@@ -82,6 +82,12 @@ function RegistrationForm(props) {
         value={password}
       />
       <br />
+      {"* >= 8 characters"}
+      <br />
+      {"* >= 1 uppercase"}
+      <br />
+      {"* >= 1 number"}
+      <br />
       <Button onClick={handleRegisterClick} disabled={isRegistering}>
         Register
       </Button>

@@ -72,8 +72,12 @@ function LoginForm(props) {
         value={password}
       />
       <br />
-      <Button onClick={handleLoginClick}>Login</Button>
-      <Button onClick={handleBackClick}>Back</Button>
+      <Button onClick={handleLoginClick} disabled={isLoggingIn}>
+        Login
+      </Button>
+      <Button onClick={handleBackClick} disabled={isLoggingIn}>
+        Back
+      </Button>
     </div>
   );
 }

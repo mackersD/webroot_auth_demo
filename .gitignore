@@ -10,7 +10,10 @@
 
 # production
 /build
-/dist
+/dist/*-unpacked
+/dist/*.yaml
+/dist/*.yml
+/dist/*.blockmap
 
 # misc
 .DS_Store
