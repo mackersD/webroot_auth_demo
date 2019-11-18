@@ -16,6 +16,8 @@ Testing Characteristics
 
 If I had more time:
 
+- add password attempt limits
+- prevent DoS on registration
 - further test coverage
 - persistent storage of passwords
 - cross-platform builds
